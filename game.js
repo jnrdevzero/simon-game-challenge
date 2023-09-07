@@ -2,7 +2,7 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 var gamePattern = [];
 var userClickedPattern = [];
 var level = 0;
-
+var started = false;
 // 1. Create a new function called nextSequence()
 function nextSequence() {
   // 2. Inside the new function generate a new random number between 0 and 3, and store it in a variable called randomNumber
